@@ -14,7 +14,6 @@ public class WikiTestBase {
     static void setUp () {
         Configuration.browser = "chrome";
         Configuration.browserSize = "1920x1080";
-        Configuration.baseUrl = "https://en.wikipedia.org/";
     }
 
     @AfterAll
