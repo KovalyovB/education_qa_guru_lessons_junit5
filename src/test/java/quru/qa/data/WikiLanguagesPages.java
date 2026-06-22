@@ -1,0 +1,17 @@
+package quru.qa.data;
+
+public enum WikiLanguagesPages {
+    English("https://en.wikipedia.org/wiki/Wikipedia"),
+    Русский("https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F");
+
+    public final String wikiUrlForTest;
+
+    public String getUrl() {
+        return wikiUrlForTest;
+    }
+
+    WikiLanguagesPages(String wikiInfo) {
+        this.wikiUrlForTest = wikiInfo;
+
+    }
+}
